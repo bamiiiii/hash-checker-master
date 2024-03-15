@@ -1,0 +1,1159 @@
+com/j256/ormlite/android/apptools/OrmLiteConfigUtil -> com/j256/ormlite/android/apptools/OrmLiteConfigUtil
+java/lang/StringBuilder -> java/lang/StringBuilder
+com/smlnskgmail/jaman/hashchecker/di/modules/SettingsHelperModule_SettingsHelperFactory -> STLg
+	module -> STLh
+	create(Lcom/smlnskgmail/jaman/hashchecker/di/modules/SettingsHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/di/modules/SettingsHelperModule_SettingsHelperFactory; -> STLj
+	get()Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings; -> STLi
+	settingsHelper(Lcom/smlnskgmail/jaman/hashchecker/di/modules/SettingsHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings; -> STLk
+com/smlnskgmail/jaman/hashchecker/ui/BaseActivity -> com/smlnskgmail/jaman/hashchecker/ui/BaseActivity
+	avsuit -> STLl
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/types/UserActionType -> com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/types/UserActionType
+com/smlnskgmail/jaman/adaptiverecyclerview/AdaptiveRecyclerView -> com/smlnskgmail/jaman/adaptiverecyclerview/AdaptiveRecyclerView
+java/lang/Runnable -> java/lang/Runnable
+java/lang/reflect/Method -> java/lang/reflect/Method
+com/smlnskgmail/jaman/hashchecker/features/settings/presenter/SettingsPresenter -> STLax
+	saveUserData()V -> STLaz
+	init(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsView;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage;)V -> STLay
+com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashCalculatorTask$HashCalculatorTaskTarget -> STLgz$STLbp
+	hashCalculationComplete(Ljava/lang/String;)V -> STLbq
+com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings$SharedPreferencesSettingsKeyExtractor -> STLil$STLbr
+	extractById(I)Ljava/lang/String; -> STLbs
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesListAdapter$ThemesListHolder -> STLwf$STLce
+	this$0 -> STLad
+	themeAtPosition -> STLcf
+	configureNewTheme()V -> STLci
+	callItemClick()V -> STLca
+	showThemeApplyDialog()V -> STLch
+	getConditionToAdditionalIconVisibleState()Z -> STLbz
+	bind(Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme;)V -> STLcg
+	bind(Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/ListItem;)V -> STLbx
+	lambda$showThemeApplyDialog$0(Landroid/content/DialogInterface;I)V -> STLcj
+	getConditionToPrimaryIconVisibleState()Z -> STLby
+com/github/aelstad/keccakj/provider/KeccakjProvider -> com/github/aelstad/keccakj/provider/KeccakjProvider
+android/view/View$OnClickListener -> android/view/View$OnClickListener
+com/smlnskgmail/jaman/hashchecker/components/settings/api/Settings -> STLco
+	HASH_GENERATION_COUNT_BEFORE_RATE_APP_DIALOG_CALL -> STLcq
+	FILE_CREATE -> STLcp
+	getLastHashType()Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType; -> STLcs
+	getVibrateAccess()Z -> STLcy
+	saveShortcutsStatus(Z)V -> STLdd
+	setGenerateFromShareIntentMode(Z)V -> STLde
+	canSaveResultToHistory()Z -> STLcx
+	isShortcutsIsCreated()Z -> STLdc
+	languageIsInitialized()Z -> STLct
+	saveLanguage(Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language;)V -> STLcu
+	canShowRateAppDialog()Z -> STLdh
+	increaseHashGenerationCount()V -> STLdi
+	getLanguage()Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language; -> STLcv
+	refreshSelectedFile()Z -> STLdf
+	useUpperCase()Z -> STLdb
+	setRefreshSelectedFileStatus(Z)V -> STLdg
+	getSelectedTheme()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme; -> STLcz
+	saveHashTypeAsLast(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;)V -> STLcr
+	saveTheme(Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme;)V -> STLda
+	isUsingMultilineHashFields()Z -> STLcw
+androidx/fragment/app/Fragment -> androidx/fragment/app/Fragment
+androidx/fragment/app/FragmentManager -> androidx/fragment/app/FragmentManager
+com/smlnskgmail/jaman/hashchecker/ui/watchers/AppTextWatcher -> STLdj
+java/lang/Object -> java/lang/Object
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/HashesListAdapter -> STLdx
+	selectedHashType -> STLdy
+	themeConfig -> STLbh
+	hashTypeSelectListener -> STLdz
+	getItemsHolder(Landroid/content/Context;Landroid/view/View;)Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder; -> STLdu
+com/smlnskgmail/jaman/hashchecker/di/components/AppComponent -> STLeb
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment;)V -> STLeg
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/PrivacyPolicyWebLinksBottomSheet;)V -> STLeo
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/GenerateToBottomSheet;)V -> STLeh
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesBottomSheet;)V -> STLel
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionSelectActionsBottomSheet;)V -> STLei
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment;)V -> STLed
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/LibrariesWebLinksBottomSheet;)V -> STLen
+	inject(Lcom/smlnskgmail/jaman/hashchecker/MainActivity;)V -> STLec
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment;)V -> STLef
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/AuthorWebLinksBottomSheet;)V -> STLem
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment;)V -> STLee
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesBottomSheet;)V -> STLek
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/SourceSelectActionsBottomSheet;)V -> STLej
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLinksListAdapter$WebLinksListHolder -> STLabn$STLep
+	webLink -> STLeq
+	this$0 -> STLad
+	bind(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLink;)V -> STLer
+	callItemClick()V -> STLca
+	bind(Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/ListItem;)V -> STLbx
+	getConditionToPrimaryIconVisibleState()Z -> STLby
+com/smlnskgmail/jaman/hashchecker/features/feedback/presenter/FeedbackPresenterImpl -> STLew
+	feedback -> STLex
+	view -> STLey
+	init(Lcom/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackView;)V -> STLaf
+	sendFeedback(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V -> STLag
+java/text/DateFormat -> java/text/DateFormat
+com/smlnskgmail/jaman/hashchecker/di/modules/LangHelperModule -> STLez
+	languageConfig -> STLfa
+	langHelper()Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig; -> STLfb
+com/stealien/avsuit/module/DetectionInfo -> com/stealien/avsuit/module/DetectionInfo
+java/security/Security -> java/security/Security
+android/view/Window -> android/view/Window
+com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculator -> STLfl
+	jdkHashCalculatorDigest -> STLfm
+	setHashType(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;)V -> STLfn
+	fromFile(Ljava/io/InputStream;)Ljava/lang/String; -> STLfq
+	fromString(Ljava/lang/String;)Ljava/lang/String; -> STLfo
+	fromFile(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String; -> STLfp
+	inputStreamFromUri(Landroid/content/Context;Landroid/net/Uri;)Ljava/io/InputStream; -> STLfr
+android/view/MenuItem -> android/view/MenuItem
+com/smlnskgmail/jaman/hashchecker/di/modules/SettingsHelperModule -> STLfs
+	settings -> STLbg
+	settingsHelper()Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings; -> STLft
+com/smlnskgmail/jaman/hashchecker/di/modules/ThemeHelperModule_ThemeHelperFactory -> STLfu
+	module -> STLh
+	themeHelper(Lcom/smlnskgmail/jaman/hashchecker/di/modules/ThemeHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig; -> STLfx
+	create(Lcom/smlnskgmail/jaman/hashchecker/di/modules/ThemeHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/di/modules/ThemeHelperModule_ThemeHelperFactory; -> STLfw
+	get()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig; -> STLfv
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/GenerateToBottomSheet_MembersInjector -> STLfy
+	themeConfigProvider -> STLga
+	settingsProvider -> STLfz
+	injectSettings(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/GenerateToBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings;)V -> STLgd
+	create(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/MembersInjector; -> STLgb
+	injectThemeConfig(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/GenerateToBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V -> STLge
+	injectMembers(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/GenerateToBottomSheet;)V -> STLgc
+android/text/Editable -> android/text/Editable
+android/content/DialogInterface$OnShowListener -> android/content/DialogInterface$OnShowListener
+com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteConfigUtil -> STLgf
+androidx/appcompat/app/AppCompatActivity -> androidx/appcompat/app/AppCompatActivity
+com/j256/ormlite/android/apptools/OrmLiteSqliteOpenHelper -> com/j256/ormlite/android/apptools/OrmLiteSqliteOpenHelper
+dagger/MembersInjector -> dagger/MembersInjector
+com/smlnskgmail/jaman/hashchecker/ui/states/AppResumeTarget -> STLgi
+	appResume()V -> STLgj
+android/content/ClipboardManager -> android/content/ClipboardManager
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/LibrariesWebLinksBottomSheet -> com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/LibrariesWebLinksBottomSheet
+	themeConfig -> STLbh
+com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment_MembersInjector -> STLgk
+	themeConfigProvider -> STLga
+	localDataStorageProvider -> STLgl
+	settingsProvider -> STLfz
+	injectMembers(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment;)V -> STLgn
+	injectThemeConfig(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V -> STLgq
+	create(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/MembersInjector; -> STLgm
+	injectSettings(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment;Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings;)V -> STLgp
+	injectLocalDataStorage(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage;)V -> STLgo
+[Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLink; -> [Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLink;
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionSelectActionsBottomSheet_MembersInjector -> STLgr
+	themeConfigProvider -> STLga
+	injectThemeConfig(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionSelectActionsBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V -> STLgu
+	injectMembers(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionSelectActionsBottomSheet;)V -> STLgt
+	create(Ljavax/inject/Provider;)Ldagger/MembersInjector; -> STLgs
+java/lang/annotation/Annotation -> java/lang/annotation/Annotation
+android/database/Cursor -> android/database/Cursor
+com/smlnskgmail/jaman/hashchecker/components/vibrator/Vibrator -> STLgv
+	vibrator -> STLgx
+	VIBRATION_LENGTH -> STLgw
+	vibrate()V -> STLgy
+com/smlnskgmail/jaman/hashchecker/components/locale/api/Language -> com/smlnskgmail/jaman/hashchecker/components/locale/api/Language
+java/lang/Long -> java/lang/Long
+com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem -> com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem
+	COLUMN_HASH_VALUE -> STLhq
+	COLUMN_IS_FILE -> STLho
+	isFile -> STLhs
+	COLUMN_HASH_TYPE -> STLhn
+	generationDate -> STLhr
+	TABLE_HISTORY -> STLhl
+	COLUMN_OBJECT_VALUE -> STLhp
+	objectValue -> STLht
+	COLUMN_GENERATION_DATE -> STLhm
+	hashType -> STLhb
+	hashValue -> STLhu
+	getObjectValue()Ljava/lang/String; -> STLhy
+	getHashType()Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType; -> STLhw
+	getGenerationDate()Ljava/util/Date; -> STLhv
+	isFile()Z -> STLhx
+	getHashValue()Ljava/lang/String; -> STLhz
+com/smlnskgmail/jaman/hashchecker/features/feedback/Feedback -> STLia
+	osVersion -> STLid
+	model -> STLif
+	appVersionName -> STLib
+	appVersionCode -> STLic
+	manufacturer -> STLie
+	manufacturer()Ljava/lang/String; -> STLih
+	model()Ljava/lang/String; -> STLii
+	getAppInfo()Ljava/lang/String; -> STLij
+	osVersion()Ljava/lang/String; -> STLig
+	getConfiguredMessage(Ljava/lang/String;)Ljava/lang/String; -> STLik
+android/os/VibrationEffect -> android/os/VibrationEffect
+android/content/DialogInterface$OnClickListener -> android/content/DialogInterface$OnClickListener
+androidx/appcompat/app/AlertDialog$Builder -> androidx/appcompat/app/AlertDialog$Builder
+[Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language; -> [Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language;
+android/database/sqlite/SQLiteDatabase -> android/database/sqlite/SQLiteDatabase
+androidx/recyclerview/widget/RecyclerView$ViewHolder -> androidx/recyclerview/widget/RecyclerView$ViewHolder
+com/smlnskgmail/jaman/hashchecker/UIActivity -> com/smlnskgmail/jaman/hashchecker/UIActivity
+	avsuit -> STLl
+	malwares -> STLjd
+android/util/Pair -> android/util/Pair
+android/content/ClipData$Item -> android/content/ClipData$Item
+android/text/method/ScrollingMovementMethod -> android/text/method/ScrollingMovementMethod
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/input/TextValueTarget -> STLjm
+	textValueEntered(Ljava/lang/String;)V -> STLjn
+com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListAdapter -> STLdp
+	bottomSheet -> STLdq
+	items -> STLdr
+	onBindViewHolder(Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder;I)V -> STLdt
+	onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder; -> STLds
+	dismissBottomSheet()V -> STLdw
+	getBottomSheet()Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/BaseListBottomSheet; -> STLdv
+	getItemsHolder(Landroid/content/Context;Landroid/view/View;)Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder; -> STLdu
+com/j256/ormlite/table/TableUtils -> com/j256/ormlite/table/TableUtils
+android/os/Vibrator -> android/os/Vibrator
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionsListAdapter$ActionHolder -> STLmg$STLju
+	this$0 -> STLad
+	action -> STLbf
+	callItemClick()V -> STLca
+	bind(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/Action;)V -> STLjv
+	bind(Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/ListItem;)V -> STLbx
+	getConditionToPrimaryIconVisibleState()Z -> STLby
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/PrivacyPolicyWebLinksBottomSheet -> com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/PrivacyPolicyWebLinksBottomSheet
+	themeConfig -> STLbh
+[Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/Action; -> [Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/Action;
+dagger/internal/Factory -> dagger/internal/Factory
+android/graphics/drawable/Icon -> android/graphics/drawable/Icon
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesBottomSheet_MembersInjector -> STLku
+	languageConfigProvider -> STLkv
+	themeConfigProvider -> STLga
+	create(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/MembersInjector; -> STLgb
+	injectLanguageConfig(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig;)V -> STLkx
+	injectThemeConfig(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V -> STLky
+	injectMembers(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesBottomSheet;)V -> STLkw
+android/view/ViewGroup -> android/view/ViewGroup
+com/smlnskgmail/jaman/hashchecker/di/modules/ThemeHelperModule -> STLln
+	themeConfig -> STLbh
+	themeHelper()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig; -> STLlo
+com/j256/ormlite/dao/Dao -> com/j256/ormlite/dao/Dao
+com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment_MembersInjector -> STLlp
+	languageConfigProvider -> STLkv
+	themeConfigProvider -> STLga
+	localDataStorageProvider -> STLgl
+	injectMembers(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment;)V -> STLlq
+	injectLocalDataStorage(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage;)V -> STLlr
+	injectLanguageConfig(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment;Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig;)V -> STLls
+	create(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/MembersInjector; -> STLgm
+	injectThemeConfig(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V -> STLlt
+java/lang/Throwable -> java/lang/Throwable
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionsListAdapter -> STLmg
+	themeConfig -> STLbh
+	userActionTarget -> STLmh
+	getItemsHolder(Landroid/content/Context;Landroid/view/View;)Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder; -> STLdu
+javax/inject/Provider -> javax/inject/Provider
+androidx/recyclerview/widget/RecyclerView$Adapter -> androidx/recyclerview/widget/RecyclerView$Adapter
+com/smlnskgmail/jaman/hashchecker/di/modules/DatabaseHelperModule_DatabaseHelperFactory -> STLmm
+	module -> STLh
+	databaseHelper(Lcom/smlnskgmail/jaman/hashchecker/di/modules/DatabaseHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage; -> STLmp
+	get()Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage; -> STLmn
+	create(Lcom/smlnskgmail/jaman/hashchecker/di/modules/DatabaseHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/di/modules/DatabaseHelperModule_DatabaseHelperFactory; -> STLmo
+com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType -> com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType
+java/lang/Exception -> java/lang/Exception
+java/lang/reflect/Field -> java/lang/reflect/Field
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesBottomSheet -> com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesBottomSheet
+	languageConfig -> STLfa
+	themeConfig -> STLbh
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/HashesListAdapter$HashesListHolder -> STLdx$STLmq
+	hashTypeAtPosition -> STLmr
+	this$0 -> STLad
+	callItemClick()V -> STLca
+	bind(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;)V -> STLms
+	getConditionToAdditionalIconVisibleState()Z -> STLbz
+	bind(Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/ListItem;)V -> STLbx
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment$2 -> com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment$2
+	$com$smlnskgmail$jaman$hashchecker$features$hashcalculator$lists$actions$types$UserActionType -> null
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment$1 -> com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment$1
+	val$copyButton -> STLmy
+	val$clearButton -> STLmz
+	this$0 -> STLad
+	onTextChanged(Ljava/lang/CharSequence;III)V -> STLna
+com/smlnskgmail/jaman/hashchecker/di/scopes/ApplicationScope -> STLne
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLink -> com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLink
+androidx/core/app/ShareCompat$IntentBuilder -> androidx/core/app/ShareCompat$IntentBuilder
+androidx/recyclerview/widget/RecyclerView$OnScrollListener -> androidx/recyclerview/widget/RecyclerView$OnScrollListener
+com/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryPortion -> STLvx
+	PAGE_SIZE -> STLvy
+	page -> STLvz
+	isLoaded -> STLwa
+	pageSize()J -> STLwb
+	page()I -> STLwc
+	isLoaded()Z -> STLfg
+	setPage(I)V -> STLwd
+	setLoaded(Z)V -> STLwe
+android/widget/EditText -> android/widget/EditText
+javax/crypto/Cipher -> javax/crypto/Cipher
+android/app/Activity -> android/app/Activity
+com/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryItemsLoaderTaskTarget -> STLwg
+	postLoad(Ljava/util/List;)V -> STLfj
+	dataPortion()Lcom/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryPortion; -> STLfk
+android/os/Build -> android/os/Build
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesListAdapter$LanguagesListHolder -> STLgg$STLwl
+	this$0 -> STLad
+	languageAtPosition -> STLwm
+	callItemClick()V -> STLca
+	getConditionToAdditionalIconVisibleState()Z -> STLbz
+	lambda$callItemClick$0(Landroid/content/DialogInterface;I)V -> STLwo
+	bind(Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/ListItem;)V -> STLbx
+	bind(Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language;)V -> STLwn
+java/util/List -> java/util/List
+java/io/ByteArrayOutputStream -> java/io/ByteArrayOutputStream
+com/smlnskgmail/jaman/hashchecker/ui/dialogs/system/AppAlertDialog -> STLwp
+	context -> STLai
+	positiveButtonTextResId -> STLwr
+	positiveClickListener -> STLws
+	themeConfig -> STLbh
+	titleResId -> STLwq
+	messageResId -> STLbd
+	lambda$show$1(Landroid/content/DialogInterface;)V -> STLwt
+	lambda$show$0(Landroid/content/DialogInterface;I)V -> STLwu
+	show()V -> STLbi
+android/view/View -> android/view/View
+com/j256/ormlite/stmt/DeleteBuilder -> com/j256/ormlite/stmt/DeleteBuilder
+java/io/FileOutputStream -> java/io/FileOutputStream
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/GenerateToBottomSheet -> com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/GenerateToBottomSheet
+	settings -> STLbg
+	themeConfig -> STLbh
+android/graphics/PorterDuff$Mode -> android/graphics/PorterDuff$Mode
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/SourceSelectActionsBottomSheet_MembersInjector -> STLxk
+	themeConfigProvider -> STLga
+	injectMembers(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/SourceSelectActionsBottomSheet;)V -> STLxl
+	injectThemeConfig(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/SourceSelectActionsBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V -> STLxm
+	create(Ljavax/inject/Provider;)Ldagger/MembersInjector; -> STLgs
+android/content/res/Resources -> android/content/res/Resources
+android/view/LayoutInflater -> android/view/LayoutInflater
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/HashTypeSelectTarget -> STLxn
+	hashTypeSelect(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;)V -> STLxo
+com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashUtils -> STLxu
+	HEX_DIGITS -> STLxv
+	getStringFromLong(J)Ljava/lang/String; -> STLxx
+	getStringFromByteArray([B)Ljava/lang/String; -> STLxw
+com/smlnskgmail/jaman/hashchecker/components/theme/api/Theme -> com/smlnskgmail/jaman/hashchecker/components/theme/api/Theme
+java/io/InputStream -> java/io/InputStream
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/types/UserActionTarget -> STLxz
+	userActionSelect(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/types/UserActionType;)V -> STLya
+java/lang/String -> java/lang/String
+com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/BaseListBottomSheet -> com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/BaseListBottomSheet
+java/lang/invoke/LambdaMetafactory -> java/lang/invoke/LambdaMetafactory
+androidx/fragment/app/FragmentTransaction -> androidx/fragment/app/FragmentTransaction
+a/AppSuitDexLoader -> a/a
+	loaded -> STLes
+	native_pullVmStacktraces(Ljava/lang/String;)V -> STLev
+	swap_X(S)I -> STLeu
+	swap_X(I)I -> STLet
+com/j256/ormlite/stmt/QueryBuilder -> com/j256/ormlite/stmt/QueryBuilder
+android/text/TextWatcher -> android/text/TextWatcher
+com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder -> STLbt
+	ivItemPrimaryIcon -> STLbv
+	ivItemAdditionalIcon -> STLbw
+	context -> STLai
+	themeConfig -> STLbh
+	tvItemTitle -> STLbu
+	callItemClick()V -> STLca
+	getConditionToAdditionalIconVisibleState()Z -> STLbz
+	bind(Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/ListItem;)V -> STLbx
+	getIvItemAdditionalIcon()Landroid/widget/ImageView; -> STLcb
+	getConditionToPrimaryIconVisibleState()Z -> STLby
+	getContext()Landroid/content/Context; -> STLcc
+	lambda$bind$0(Landroid/view/View;)V -> STLcd
+com/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataExporter -> STLyp
+	EXPORT_FILE -> STLyq
+	getUserDataZip(Landroid/content/Context;)Ljava/lang/String; -> STLyt
+	exportDatabase(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage;)V -> STLyr
+	getAppFolder(Landroid/content/Context;)Ljava/lang/String; -> STLyu
+	createZip(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)V -> STLys
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionsBottomSheet -> com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionsBottomSheet
+android/view/MenuInflater -> android/view/MenuInflater
+com/smlnskgmail/jaman/hashchecker/features/history/presenter/HistoryPresenter -> STLyv
+	load()V -> STLfh
+	clearHistory()V -> STLfi
+	init(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/HistoryView;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage;)V -> STLff
+	isLoaded()Z -> STLfg
+android/widget/ImageView -> android/widget/ImageView
+a/CHECK_ -> STLyw
+	v -> STLyx
+a/CHECK2_ -> STLzd
+	v -> STLyx
+java/lang/Enum -> java/lang/Enum
+java/util/zip/ZipOutputStream -> java/util/zip/ZipOutputStream
+java/lang/CharSequence -> java/lang/CharSequence
+com/smlnskgmail/jaman/hashchecker/utils/LogUtils -> STLabl
+	e(Ljava/lang/Throwable;)V -> STLabm
+android/os/LocaleList -> android/os/LocaleList
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLinksListAdapter -> STLabn
+	themeConfig -> STLbh
+	getItemsHolder(Landroid/content/Context;Landroid/view/View;)Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder; -> STLdu
+android/widget/Button -> android/widget/Button
+com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment_MembersInjector -> STLabo
+	languageConfigProvider -> STLkv
+	injectMembers(Lcom/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment;)V -> STLabp
+	injectLanguageConfig(Lcom/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment;Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig;)V -> STLabq
+	create(Ljavax/inject/Provider;)Ldagger/MembersInjector; -> STLgs
+com/smlnskgmail/jaman/hashchecker/components/theme/impl/ThemeConfigImpl -> STLabr
+	settings -> STLbg
+	context -> STLai
+	getColorFromAttrs(I)I -> STLabs
+	getCommonBackgroundColor()I -> STLs
+	applyAccentColorToImage(Landroid/graphics/drawable/Drawable;)V -> STLp
+	setCurrentTheme(Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme;)V -> STLn
+	getAccentColor()I -> STLq
+	getCommonTextColor()I -> STLr
+	currentTheme()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme; -> STLo
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment -> com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment
+	FILE_SELECT -> STLabt
+	settings -> STLbg
+	mainScreen -> STLabw
+	btnGenerateFrom -> STLacb
+	TEXT_MULTILINE_LINES_COUNT -> STLabu
+	progressDialog -> STLacc
+	fragmentManager -> STLbn
+	startWithTextSelection -> STLacd
+	etCustomHash -> STLabx
+	TEXT_SINGLE_LINE_LINES_COUNT -> STLabv
+	etGeneratedHash -> STLaby
+	tvSelectedObjectName -> STLabz
+	context -> STLai
+	fileUri -> STLhc
+	isBackButtonDoubleTap -> STLacg
+	isTextSelected -> STLacf
+	languageConfig -> STLfa
+	themeConfig -> STLbh
+	tvSelectedHashType -> STLaca
+	startWithFileSelection -> STLace
+	hashCalculatorTaskTarget -> STLach
+	localDataStorage -> STLbk
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/SourceSelectActionsBottomSheet -> com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/SourceSelectActionsBottomSheet
+	themeConfig -> STLbh
+android/widget/TextView -> android/widget/TextView
+com/smlnskgmail/jaman/hashchecker/di/modules/DatabaseHelperModule -> STLacl
+	localDataStorage -> STLbk
+	databaseHelper()Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage; -> STLacm
+android/content/ContentResolver -> android/content/ContentResolver
+java/util/Objects -> java/util/Objects
+java/lang/Class -> java/lang/Class
+androidx/preference/PreferenceFragmentCompat -> androidx/preference/PreferenceFragmentCompat
+com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackView -> STLa
+	showManufacturer(Ljava/lang/String;)V -> STLd
+	showModel(Ljava/lang/String;)V -> STLe
+	showAndroidVersion(Ljava/lang/String;)V -> STLc
+	sendEmail(Landroid/content/Intent;)V -> STLf
+	showAppInfo(Ljava/lang/String;)V -> STLb
+java/lang/Integer -> java/lang/Integer
+android/content/pm/ShortcutInfo$Builder -> android/content/pm/ShortcutInfo$Builder
+android/content/res/AssetManager -> android/content/res/AssetManager
+com/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig -> STLm
+	getCommonBackgroundColor()I -> STLs
+	applyAccentColorToImage(Landroid/graphics/drawable/Drawable;)V -> STLp
+	setCurrentTheme(Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme;)V -> STLn
+	getAccentColor()I -> STLq
+	getCommonTextColor()I -> STLr
+	currentTheme()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme; -> STLo
+com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment$1 -> com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment$1
+	$com$smlnskgmail$jaman$hashchecker$features$settings$presenter$SettingsPresenter$SaveUserDataResult -> null
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/input/TextInputDialog -> STLz
+	etTextValue -> STLaa
+	textValue -> STLac
+	textValueCallback -> STLab
+	setupDialogStyle()V -> STLx
+	lambda$initializeDialog$0(Landroid/view/View;)V -> STLy
+	initializeDialog()V -> STLw
+	getLayoutResId()I -> STLv
+com/stealien/avsuit/module/AVSuit -> com/stealien/avsuit/module/AVSuit
+android/content/Intent -> android/content/Intent
+dagger/internal/Preconditions -> dagger/internal/Preconditions
+com/smlnskgmail/jaman/hashchecker/ui/BaseActivity$1 -> com/smlnskgmail/jaman/hashchecker/ui/BaseActivity$1
+	this$0 -> STLad
+com/smlnskgmail/jaman/hashchecker/features/feedback/presenter/FeedbackPresenter -> STLae
+	init(Lcom/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackView;)V -> STLaf
+	sendFeedback(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V -> STLag
+java/util/Arrays -> java/util/Arrays
+com/smlnskgmail/jaman/hashchecker/components/clipboard/Clipboard -> STLah
+	context -> STLai
+	text -> STLaj
+	copy()V -> STLak
+com/google/android/material/snackbar/Snackbar -> com/google/android/material/snackbar/Snackbar
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLinksBottomSheet -> com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/WebLinksBottomSheet
+java/lang/NoSuchMethodException -> java/lang/NoSuchMethodException
+com/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder -> STLav$STLal
+	settingsHelperModule -> STLan
+	databaseHelperModule -> STLam
+	langHelperModule -> STLao
+	themeHelperModule -> STLap
+	themeHelperModule(Lcom/smlnskgmail/jaman/hashchecker/di/modules/ThemeHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder; -> STLat
+	build()Lcom/smlnskgmail/jaman/hashchecker/di/components/AppComponent; -> STLau
+	databaseHelperModule(Lcom/smlnskgmail/jaman/hashchecker/di/modules/DatabaseHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder; -> STLaq
+	langHelperModule(Lcom/smlnskgmail/jaman/hashchecker/di/modules/LangHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder; -> STLas
+	settingsHelperModule(Lcom/smlnskgmail/jaman/hashchecker/di/modules/SettingsHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder; -> STLar
+com/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent -> STLav
+	builder()Lcom/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$Builder; -> STLaw
+com/smlnskgmail/jaman/hashchecker/ui/dialogs/system/AppSnackbar -> STLba
+	parent -> STLbc
+	settings -> STLbg
+	actionText -> STLbe
+	COMMON_SNACKBAR_MARGIN -> STLbb
+	context -> STLai
+	action -> STLbf
+	themeConfig -> STLbh
+	messageResId -> STLbd
+	lambda$show$0(Lcom/google/android/material/snackbar/Snackbar;Landroid/view/View;)V -> STLbj
+	show()V -> STLbi
+com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment -> com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment
+	settings -> STLbg
+	fragmentManager -> STLbn
+	context -> STLai
+	themeConfig -> STLbh
+	settingsPresenter -> STLbl
+	actionBar -> STLbm
+	localDataStorage -> STLbk
+java/io/File -> java/io/File
+androidx/fragment/app/FragmentActivity -> androidx/fragment/app/FragmentActivity
+com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment$1 -> com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment$1
+	this$0 -> STLad
+	canLoad(II)Z -> STLbo
+com/stealien/avsuit/module/AVSuit$onDetectListener -> com/stealien/avsuit/module/AVSuit$onDetectListener
+java/util/Iterator -> java/util/Iterator
+java/util/zip/ZipEntry -> java/util/zip/ZipEntry
+com/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig -> STLck
+	setLanguage(Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language;)V -> STLcl
+	applyLanguage(Landroid/content/Context;)V -> STLcm
+	currentLanguage()Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language; -> STLcn
+android/content/pm/ApplicationInfo -> android/content/pm/ApplicationInfo
+androidx/recyclerview/widget/LinearLayoutManager -> androidx/recyclerview/widget/LinearLayoutManager
+android/os/Handler -> android/os/Handler
+com/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryItemsLoaderTask -> STLdk
+	loaderTaskTarget -> STLdl
+	localDataStorage -> STLbk
+	doInBackground([Ljava/lang/Void;)Ljava/util/List; -> STLdm
+	onPostExecute(Ljava/util/List;)V -> STLdn
+	completeLoad(Ljava/util/List;)V -> STLdo
+android/os/AsyncTask -> android/os/AsyncTask
+android/util/Log -> android/util/Log
+com/smlnskgmail/jaman/hashchecker/features/settings/presenter/SettingsPresenter$SaveUserDataResult -> STLax$SaveUserDataResult
+com/smlnskgmail/jaman/hashchecker/ui/BaseFragment -> com/smlnskgmail/jaman/hashchecker/ui/BaseFragment
+	CURRENT_FRAGMENT_TAG -> STLea
+	actionBar -> STLbm
+java/lang/System -> java/lang/System
+android/view/WindowManager$LayoutParams -> android/view/WindowManager$LayoutParams
+com/smlnskgmail/jaman/hashchecker/App -> com/smlnskgmail/jaman/hashchecker/App
+java/lang/Boolean -> java/lang/Boolean
+android/graphics/drawable/Drawable -> android/graphics/drawable/Drawable
+com/smlnskgmail/jaman/hashchecker/features/history/presenter/HistoryPresenterImpl -> STLfc
+	isLoading -> STLfe
+	view -> STLey
+	historyPortion -> STLfd
+	localDataStorage -> STLbk
+	load()V -> STLfh
+	clearHistory()V -> STLfi
+	init(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/HistoryView;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage;)V -> STLff
+	isLoaded()Z -> STLfg
+	postLoad(Ljava/util/List;)V -> STLfj
+	dataPortion()Lcom/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryPortion; -> STLfk
+android/os/ParcelFileDescriptor -> android/os/ParcelFileDescriptor
+com/j256/ormlite/android/apptools/OpenHelperManager -> com/j256/ormlite/android/apptools/OpenHelperManager
+java/util/Calendar -> java/util/Calendar
+androidx/core/content/ContextCompat -> androidx/core/content/ContextCompat
+android/text/InputFilter$AllCaps -> android/text/InputFilter$AllCaps
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/Action -> com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/Action
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesListAdapter -> STLgg
+	selectedLanguage -> STLgh
+	languageConfig -> STLfa
+	themeConfig -> STLbh
+	getItemsHolder(Landroid/content/Context;Landroid/view/View;)Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder; -> STLdu
+android/content/res/Configuration -> android/content/res/Configuration
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesBottomSheet -> com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesBottomSheet
+	settings -> STLbg
+	themeConfig -> STLbh
+android/content/pm/ShortcutManager -> android/content/pm/ShortcutManager
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionSelectActionsBottomSheet -> com/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionSelectActionsBottomSheet
+	themeConfig -> STLbh
+android/util/TypedValue -> android/util/TypedValue
+java/lang/Number -> java/lang/Number
+java/lang/IllegalArgumentException -> java/lang/IllegalArgumentException
+java/io/ByteArrayInputStream -> java/io/ByteArrayInputStream
+com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashCalculatorTask -> STLgz
+	textValue -> STLac
+	completeListener -> STLha
+	context -> STLai
+	fileUri -> STLhc
+	hashType -> STLhb
+	isText -> STLhd
+	onPostExecute(Ljava/lang/String;)V -> STLhf
+	doInBackground([Ljava/lang/Void;)Ljava/lang/String; -> STLhe
+com/smlnskgmail/jaman/hashchecker/features/settings/presenter/SettingsPresenterImpl -> STLhg
+	view -> STLey
+	localDataStorage -> STLbk
+	saveUserData()V -> STLaz
+	init(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsView;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage;)V -> STLay
+java/util/zip/ZipInputStream -> java/util/zip/ZipInputStream
+javax/crypto/spec/SecretKeySpec -> javax/crypto/spec/SecretKeySpec
+com/smlnskgmail/jaman/hashchecker/components/settings/impl/SharedPreferencesSettings -> STLil
+	sharedPreferences -> STLim
+	keyExtractor -> STLin
+	getIntPreference(Ljava/lang/String;)I -> STLix
+	getLastHashType()Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType; -> STLcs
+	getVibrateAccess()Z -> STLcy
+	validateAppTheme(Ljava/lang/String;)Z -> STLip
+	saveShortcutsStatus(Z)V -> STLdd
+	saveIntPreference(Ljava/lang/String;I)V -> STLiw
+	containsPreference(Ljava/lang/String;)Z -> STLir
+	getStringPreference(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; -> STLit
+	setGenerateFromShareIntentMode(Z)V -> STLde
+	canSaveResultToHistory()Z -> STLcx
+	saveLanguage(Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language;)V -> STLcu
+	refreshSelectedFile()Z -> STLdf
+	getSelectedTheme()Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme; -> STLcz
+	saveHashTypeAsLast(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;)V -> STLcr
+	isUsingMultilineHashFields()Z -> STLcw
+	getThemeAnalogue(Ljava/lang/String;)Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme; -> STLiq
+	getTheme()Ljava/lang/String; -> STLio
+	isShortcutsIsCreated()Z -> STLdc
+	getBooleanPreference(Ljava/lang/String;Z)Z -> STLiv
+	languageIsInitialized()Z -> STLct
+	saveBooleanPreference(Ljava/lang/String;Z)V -> STLiu
+	canShowRateAppDialog()Z -> STLdh
+	increaseHashGenerationCount()V -> STLdi
+	saveStringPreference(Ljava/lang/String;Ljava/lang/String;)V -> STLis
+	getLanguage()Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language; -> STLcv
+	useUpperCase()Z -> STLdb
+	setRefreshSelectedFileStatus(Z)V -> STLdg
+	saveTheme(Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme;)V -> STLda
+com/smlnskgmail/jaman/hashchecker/ui/states/AppBackClickTarget -> STLiy
+	appBackClick()V -> STLiz
+com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment -> com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment
+	historyPresenter -> STLja
+	languageConfig -> STLfa
+	themeConfig -> STLbh
+	pbHistory -> STLjc
+	localDataStorage -> STLbk
+	arvHistoryItems -> STLjb
+android/app/Dialog -> android/app/Dialog
+android/view/Menu -> android/view/Menu
+a/AppSuitDexLoader$ClassFieldModify -> a/a$STLje
+	fieldName -> STLjg
+	inited -> STLjh
+	field -> STLji
+	obj -> STLjf
+	this$0 -> STLad
+	set(Ljava/lang/Object;)V -> STLjl
+	get()Ljava/lang/Object; -> STLjk
+	prepare()V -> STLjj
+java/nio/charset/StandardCharsets -> java/nio/charset/StandardCharsets
+com/smlnskgmail/jaman/hashchecker/components/locale/impl/LanguageConfigImpl -> STLjo
+	settings -> STLbg
+	context -> STLai
+	setLanguage(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language;)V -> STLjp
+	setLanguage(Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language;)V -> STLcl
+	applyLanguage(Landroid/content/Context;)V -> STLcm
+	currentLanguage()Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/Language; -> STLcn
+androidx/appcompat/app/AlertDialog -> androidx/appcompat/app/AlertDialog
+[Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/types/UserActionType; -> [Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/types/UserActionType;
+a/AppSuitDexLoader$ClassMethodInvoke -> a/a$STLjq
+	paramType -> STLjs
+	obj -> STLjf
+	this$0 -> STLad
+	methodName -> STLjr
+	invoke([Ljava/lang/Object;)Ljava/lang/Object; -> STLjt
+java/util/ArrayList -> java/util/ArrayList
+com/smlnskgmail/jaman/hashchecker/utils/WebUtils -> STLjw
+	openWebLink(Landroid/content/Context;Ljava/lang/String;)V -> STLjy
+	openGooglePlay(Landroid/content/Context;Landroid/view/View;Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V -> STLjx
+android/content/DialogInterface -> android/content/DialogInterface
+com/smlnskgmail/jaman/hashchecker/di/modules/LangHelperModule_LangHelperFactory -> STLjz
+	module -> STLh
+	langHelper(Lcom/smlnskgmail/jaman/hashchecker/di/modules/LangHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig; -> STLkc
+	get()Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig; -> STLka
+	create(Lcom/smlnskgmail/jaman/hashchecker/di/modules/LangHelperModule;)Lcom/smlnskgmail/jaman/hashchecker/di/modules/LangHelperModule_LangHelperFactory; -> STLkb
+com/smlnskgmail/jaman/hashchecker/components/localdatastorage/impl/ormlite/OrmLiteLocalDataStorage -> STLkd
+	DATABASE_NAME -> STLkf
+	tablesClasses -> STLki
+	DATABASE_VERSION_1 -> STLkg
+	DATABASE_VERSION -> STLkh
+	DATABASE_FOLDER -> STLke
+	deleteAllHistoryItems()V -> STLkm
+	isHistoryItemsListIsEmpty()Z -> STLkn
+	releaseHelper()V -> STLkj
+	getDatabaseFolder()Ljava/lang/String; -> STLkp
+	getDatabaseFileName()Ljava/lang/String; -> STLkq
+	backupCheckpoint()V -> STLko
+	historyItems(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryPortion;)Ljava/util/List; -> STLkl
+	addHistoryItem(Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem;)V -> STLkk
+com/smlnskgmail/jaman/hashchecker/ui/dialogs/system/AppProgressDialog -> STLkr
+	textMessageResId -> STLks
+	context -> STLai
+	getDialog()Landroid/app/ProgressDialog; -> STLkt
+javax/crypto/spec/IvParameterSpec -> javax/crypto/spec/IvParameterSpec
+com/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemHolder -> STLkz
+	tvHistoryItemObjectData -> STLld
+	tvHistoryItemDate -> STLlh
+	tvHistoryItemHashType -> STLle
+	tvHistoryItemDateTitle -> STLlg
+	ivHistoryItemObjectIcon -> STLlb
+	tvHistoryItemObjectTitle -> STLlc
+	DEFAULT_TITLE_PATTERN -> STLla
+	tvHistoryItemHashData -> STLlf
+	initializeObjectData(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem;)V -> STLlj
+	lambda$bind$0(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem;Landroid/view/View;)V -> STLlm
+	initializeHashType(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem;)V -> STLlk
+	bind(Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem;)V -> STLli
+	initializeDate(Landroid/content/Context;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem;)V -> STLll
+android/content/Context -> android/content/Context
+com/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsView -> STLlu
+	initHelpWithTranslations()V -> STLmb
+	initAuthorLinks()V -> STLlz
+	saveUserDataResult(Landroid/util/Pair;)V -> STLmf
+	initLibrariesLinks()V -> STLma
+	initAppVersionInfo(Ljava/lang/String;)V -> STLme
+	initRate()V -> STLmc
+	initThemeSettings()V -> STLlw
+	initPrivacyPolicy()V -> STLlx
+	initUserDataExport()V -> STLly
+	initFeedback()V -> STLmd
+	initLanguageSettings()V -> STLlv
+java/util/zip/CRC32 -> java/util/zip/CRC32
+java/util/Locale -> java/util/Locale
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesBottomSheet_MembersInjector -> STLmi
+	themeConfigProvider -> STLga
+	settingsProvider -> STLfz
+	create(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/MembersInjector; -> STLgb
+	injectSettings(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings;)V -> STLmk
+	injectMembers(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesBottomSheet;)V -> STLmj
+	injectThemeConfig(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V -> STLml
+androidx/recyclerview/widget/RecyclerView -> androidx/recyclerview/widget/RecyclerView
+com/smlnskgmail/jaman/hashchecker/features/history/view/HistoryView -> STLmt
+	setLoading()V -> STLmu
+	refreshHistory()V -> STLmw
+	setLoaded(Ljava/util/List;)V -> STLmv
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/AuthorWebLinksBottomSheet -> com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/AuthorWebLinksBottomSheet
+	themeConfig -> STLbh
+androidx/appcompat/app/ActionBar -> androidx/appcompat/app/ActionBar
+androidx/preference/Preference -> androidx/preference/Preference
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/PrivacyPolicyWebLinksBottomSheet_MembersInjector -> STLnb
+	themeConfigProvider -> STLga
+	injectMembers(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/PrivacyPolicyWebLinksBottomSheet;)V -> STLnc
+	injectThemeConfig(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/PrivacyPolicyWebLinksBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V -> STLnd
+	create(Ljavax/inject/Provider;)Ldagger/MembersInjector; -> STLgs
+[Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme; -> [Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/Theme;
+com/smlnskgmail/jaman/hashchecker/utils/AppUtils -> STLnf
+	restartApp(Landroid/app/Activity;)V -> STLng
+AppSuitLinker1 -> STLnh
+	BWOEIBHIDHILDJZMQWYOYTFGIJGGGJTR -> STLtv
+	JIAFPQHIYUGYQDWFDSGALXAVNIWBWXPE -> STLph
+	RLVNQFXYYAHKGQTJRVUGPBUKRDXWQQFI -> STLuu
+	MCNEOJSHQYYSJBHCLMFQNPLNRHNZFHUF -> STLrw
+	XJCWHUPSNVZUVXFGCWOEOCJTDPPQAJTE -> STLuc
+	LBNEKTVXKMWQVALXWTEOUGBXVVUGCFMO -> STLpw
+	QIRSCGKMFVXIDKCPDVTISQVBNDMUCZLR -> STLon
+	PXOOCUESIRCMBFKHFJDLEGXNNTGXLGXQ -> STLrf
+	JFYOAKTYNHDKJRNBNQVOIEXJFYBGOGYT -> STLrx
+	SMTTEGANLWQTPCVZNVJNTIFKZFLXBGBR -> STLsg
+	RPHHOWBJAAWEFDGJAKHXJFECDUCOLQBG -> STLqw
+	TNWTOWBXQIFWFBQSKOJRVMEOCJCKJOQR -> STLuf
+	VLBVQZCTLSGEUUBGNSFEXPBGJQMRTRRL -> STLqv
+	CWDQLJQBZHYGNYIZLKCYTNAJYKQXSYOO -> STLtw
+	BRONPVGOONARPRQQBPVKJHLPDHHGOHTG -> STLnx
+	UTTKAGOIYZSREFZILKCSOXCLYQRPVWKC -> STLpd
+	ZXFVQFICFTXXYDGTLCOWOVVTCGLTHPGT -> STLov
+	MVSQFPFCECPVBMVYOVHXVBQTAVRMYOAT -> STLpx
+	AMUGBTBCZRHNYOCPXLHCQKOPINYSJUUJ -> STLqz
+	FFNXDLZGTRZGCONLVWDKMDORNZJSIZXR -> STLnt
+	CRSJGVSTXMPVGOTIPQMGVVPKDMLDFOLM -> STLrl
+	MNKOUOMNMLWPDYUHFBYTKMVCOYKARXHS -> STLny
+	KOJVBAQXCLDYJZQFBDDGWAQYXRKKRIWV -> STLqi
+	MCQXGQPWRCAKCCXIFSLHAUTAECQRLLLP -> STLow
+	MZWVLRGWUUFSRIMESSIZVVLBSGNRURDD -> STLsi
+	KUQFUKDAVEBJTZPIXBRTWHQDIESGNGIT -> STLnv
+	TVBJLYZSTSQVCFPRUUUKFRMMSDNAEKNW -> STLqm
+	NKATMDAMHFCSGZXEWYQOOHEJENDTUDEF -> STLtn
+	ZMXAMTEUYVCAHKMOCBJUIDIEVHVKNUYE -> STLty
+	NAJRUOGXSKIBUTYPVZDSTIBXLLAAUEKI -> STLop
+	GFGCPDVXGRZVOBGMXMFDUIHWXVXMRPEV -> STLtu
+	CZZBLRRARTBQPDYVDLFHTKJRCILZDDYE -> STLuh
+	VSWOREHEUTVQVTDTVPPXKIRHZRQGWSKS -> STLtk
+	VGXEVCAXRKKKVNWLSSEDXXGXPZDGWTKC -> STLnz
+	VSKBEZDFMASRGNUMEKVXDKVYUDUWCSVA -> STLob
+	HROYOPABFJGSUOMCGWSSMKIYNIVVXXGC -> STLuy
+	CHLGWDFPZVQJOLWHWFUQIPDVSKCQRZIN -> STLpc
+	FTMXWDJNPAABVLLFFYVSSJNMLSZWJSCI -> STLqh
+	KOUBNGLCHYAGRDLZFVETMFJXBIOMVRFE -> STLrr
+	OLMACHYIZHWPPARQFGUQJKDDABGDUCYY -> STLpm
+	JOOKWPKDVHQDZZCROSDLDUZMRAVFADWF -> STLsx
+	DUDVBEDKHFBCKDYQDJUWGKETKNAFYQUD -> STLqo
+	GKWVGEBQKYKKEBHTMWSHQAWINDLCJOSF -> STLuq
+	WLMVOZTECJONYDBNCOBZVGSUFCPEBQFQ -> STLnk
+	ADHSFRUASQEBHOTPCYABHOAJIJYGCTSF -> STLss
+	XFJIHHURXAZSBZRXBFZWPVBNRRLTMFHZ -> STLno
+	FEUNZPAZVKOHLSECFSAPSUOJYZNXTCDJ -> STLou
+	MIILVFBCHDMOIBFDOOZLYXJOYQGDUOSQ -> STLtr
+	XPZCDPKBFPKBUXCTRVPBCWJBZUBKWVDT -> STLuz
+	DLBOAZKOQCGKUCALMBKHFCUYJVTDOJCI -> STLpl
+	UYHZJGWWJVKGTNPPGNWBXLJXBTXSWOFS -> STLtj
+	ZZEJEQOTHPOXXVIRROXXTCSGVOTARFRW -> STLot
+	FLMSMSDUSLKIFNAZWLCVSKLUCMPYEFNZ -> STLsv
+	QCXPVVEQMBOEGSSUKKTCAHLWQAEXLPGS -> STLnm
+	GXZQQKRNLUWCKRWLTMSEYFSUNUIGBBIR -> STLth
+	VOBSBTZSQAWINELFYCTZIEVENCNLZUAD -> STLsy
+	MDJKUNASQGKVCWVJJACXLKCUWCZOZETF -> STLol
+	JSXRVEPAIPHHGBWABHDNSZGEWSRUFBVU -> STLpy
+	MWZWBPYSSROHQHPOWUWFKLODYJQQXIOO -> STLtm
+	DTMHWYVSZLPTFJOQPWVGHQAQLIXIUPOF -> STLnl
+	HJWVEJPWXFVIVRRWOVJSATQKMUHYXOCT -> STLps
+	HZSEYKQECHPLCAMGMARXMKGMFVUPRICN -> STLoh
+	CWCPAEGQEFANWANELZFDZIQFHVZZFFPK -> STLqx
+	OHWCMYVCMSWJEGBGROVDNHZTWFDKYIEV -> STLpr
+	LHTRINHKKCKZCAAOQXQKYNASUFHEKTPM -> STLpn
+	CZIEDDZZWEZPBSFGNPQKQYARCMZOTGKH -> STLra
+	PNKCBVNPZEJKBCUCQLMWRYIJLGNQZKSZ -> STLtg
+	LIFKJNQQMDIYRGQDLAMGVOJABSCVUBKD -> STLqn
+	BOTLVDXTHSSOXUMHVGIVXLHBFPEICJJU -> STLua
+	CWMMDEPSKJIUHHSFMOCFCIJBRWREQKDF -> STLsw
+	EVUJYLFCCEZUGJUUWOELPXSJAWBKHGNI -> STLpp
+	LVOTITMUGLZVEUVSRAIONSEMWMRKULQE -> STLtt
+	EIJTBZJPJXSDMZULLVMSMHHFIRDRMNPD -> STLsl
+	MYORTKVBQTLOCJQSPNLLIKISZQUVJXKR -> STLus
+	XPSWEESKTYZWGVVZVRZGAOXDLTCFFKJF -> STLuw
+	FWEYVYLVJCKQVUTNGWNFOGBSJBGVXDSF -> STLog
+	VZNYBMJBPGIWDXRJFKQRMGWTCJNMILEC -> STLrt
+	APBQZJPQEKYCKXKQDNKFRAPYHTENBNVA -> STLsd
+	ZKNENRQSXDNSYDVYTDVONVTFNZJKNVJD -> STLun
+	PVLRAWFZBFLYFAVGCUKTEEEOTKNMRHBF -> STLud
+	XZYCQJKFEQVJJVZITWMUIXMFUVVRDWFQ -> STLte
+	IULDPJZRFRSNQTYCTJQPYNNGFNBINNOP -> STLpf
+	BWVNYJHUSKZQGNUDHXUQINJLAZQFJOUK -> STLqy
+	JWFSCPTUPTCEURMRQXYDVQJUDYYAHWXH -> STLsc
+	FBCNWYDVFOXAKEGDQMNAEVYFIQDMFYZU -> STLqg
+	GTIZOOWFZOTSRVDTUVAWSIQODXKKLDGX -> STLui
+	MGNKDLAUGIXGGHNTQZPCSJPROZRSBTLQ -> STLrg
+	TDREMOAKNGRXKXEMNLDIQMIGDNJZYEFZ -> STLoy
+	NTYSDHZVMKOLFZBPBIGKPQIJUHUKOFDU -> STLsf
+	FTXOKKCBAQNLEANULWZEZBRCBCDIQTCV -> STLqa
+	FEUUBBOYNUKQJLTLPHTFMAJPWZKWBLLT -> STLum
+	LRVDULOYITLQTHHMYIFWHIYMFCRGQLXQ -> STLry
+	EHHFQAZMNGNLPXLYWKFLPXCPFNZSRNFE -> STLom
+	VWZMSZPPHISRELXVTJZVRBSVYYVOUSZA -> STLoi
+	NKNPAPEYBDZCZLOUXGVPTVOJJXJQJWRV -> STLrk
+	ICPGXWACUESNEOCSJZOMFZWSXPXKIOAO -> STLts
+	QQWREFFZXQVGGFEAMJACCQYMHDYLFNVH -> STLpk
+	UPUEBXTRDMKYLJVZKRFERSOQLLGSGJEM -> STLpb
+	OZLJAAJHUSVPHDMMTPLHRGKTAANBYCIN -> STLst
+	HTLBUXXFYUDDCJVFEHNWFNUWILXKIREF -> STLrn
+	CYXSVVFTHNLTSJPETXQTWMIAPMAYJNNC -> STLta
+	PIAPXZIMKNSUQUMMJZUYLBOATYBVFWPE -> STLqj
+	FHOQRXWJPLYOKQJGKGQQDRQLIZZWBHMT -> STLuv
+	UCEEAQVUHULRISHPLHMVITMBEEPSUUCY -> STLsr
+	MBWIJOSPVECYEKMAHZGTCQTQCSMASLTB -> STLtq
+	QEFHCDONFZUYJTHTALEOUIGPCUCMFGHI -> STLro
+	HHFOIACMIQXDZDOMAQVCAQLTAUSGVWSI -> STLsk
+	JOTYYEPGQMURODEHMUXMCTQCRDAEQMPL -> STLrv
+	SMQZSAEPGCAUFGQZKIRSABZPNOIUYASU -> STLnn
+	PRZKMKCHJUJAFTEWCSCXYFKUIESQJOKR -> STLsh
+	BFIMEPKXNCIWBECGTABNSIYUWOBVAKHB -> STLrz
+	QPCKIQNDJLWNTQIZQPMFVHNHHZMORXQD -> STLsp
+	CUOQDUSSLXMRKGYMZUZQWIZOXCZTWLOZ -> STLqc
+	UGRZDDCDYXOUFRNVDJWINYDOQXHYBTNJ -> STLrp
+	GZOLCPEPWYUJJVIHEYFAIUEFFVDUUEJR -> STLul
+	YDWORJWKHRWHOVDMTDUALBHERXSCTEQZ -> STLoq
+	RRVZMUFQAHOPBGNDHYZZBGWJZNUBHPHD -> STLug
+	EXYZIVLNWECYQJQGVAZUABKGNJPCPMOR -> STLsm
+	FIUUCAJRJPSJSXGTMIQUCOSDRHTGQWBH -> STLqr
+	GULTMXBHSPTIPFEKTASANBMTIDMPKZHI -> STLsa
+	ONNYTDDFZQQHZCRPJJLPMWYEEICGMCVX -> STLpu
+	LQJDDISBLMMAIDDMJISYZGBPZUJWYHZD -> STLrj
+	XPMMDINRYDNJLQOCKHYUYWXKYPNSAEHP -> STLsn
+	TWGOXHAKVXUQCFKNXUAKTKOPFTUTUCCJ -> STLnq
+	XEQIXXMFGUXFLUCMVPMJCOWQTHDGJGSX -> STLre
+	TDUUTTVTOBZYNHGAVGLQBPUYSSNVXBMF -> STLqb
+	FHFUQTUSEDVENFPILHXVFIEGWRGFZRMC -> STLrc
+	JINEKSENMJNNKURQQYDRMVEHGIXLNVKL -> STLpo
+	NSLUQOPSKNLJCLAQOHXICAKJIKYLQSCA -> STLrs
+	IXNTDQDYQWIDBPWZMEKRFZQSDTIKVFPY -> STLut
+	WWOFHZFXIEQAHGWYAHNXROWBWICQBYFO -> STLos
+	ZRSCCNVRZNILPHAKDLIXPOELMUJBSTZJ -> STLoc
+	HEWTIWYEYSQCZFRBVCHRESHRQCISZGBF -> STLqd
+	YOKUDPRLFZOFWEONTMBBFLNFZQEFNVRJ -> STLnj
+	DTAIMDNTLDZHBNRRTSITMZHVQUKYGQSU -> STLpz
+	BYXKDROSNHVWYCORHLYLBRFAKHQNMULK -> STLtz
+	NDZVSNXOHBJWVKPWAGPJYMTKEQCEWYXI -> STLtc
+	EPDBLQVGWGXSHGFUBFBZVCSTQZOKMGJO -> STLpt
+	VTWQJDAJMGJKTWMGOWZKAXDSBBVUQBUY -> STLup
+	NASWZMCBNHPOPPAKJGFGBCGIPRGNSQYI -> STLql
+	UGRGLHUNTJJXIRQRAXBBPODFEUKBHFTV -> STLoj
+	LLUEDZUCVXMHIYEHYHJEUOJPVFRKOHTU -> STLri
+	NXZLCRGQKJQOLCMALZCHTEZAEVFDDQTE -> STLso
+	SFHGKPEJGUPRKTQARTSLGIHNPZVYPQGG -> STLpj
+	FVRZOJLNAKSTOFGQNABQAAPYGNSYCYER -> STLni
+	CLKHDMUAKGBRYSPQJSNQSBCCPBDTEBGZ -> STLoe
+	QRHDAKBLIUMVTMCWFRUKOILJNASHENCV -> STLqe
+	ENGEYDHECOVYXRHFJYABCOHPDJQAPLZR -> STLrh
+	IYFDWYAHSIBDMLWUQNVZPURBMVUIXGHL -> STLpq
+	ALQOBDXBOZWFACORRBZDPIOIYMXGCFCZ -> STLrq
+	GTUYNOLGJFGIZRVDBKRKRHGAOTQAYYUM -> STLnu
+	FUFNGLRIGLWRDDRGSAGNRKAMOCBHGBES -> STLqs
+	PSGGOPFDEXVQAZGGTIJOVEADRRSXBLIT -> STLqp
+	WXRUDUVKQLGSUJLOZHCUSSPDKHPSADWT -> STLti
+	FHBAFPOOUAXGVATNXESUFTVOXOGDRZKJ -> STLru
+	YIUZQUTHRZREJZNAUPGQRUNZDNJPOASL -> STLuk
+	GJDDCRJQWOYOJPXQPMMFVLENXNLPGLOU -> STLtx
+	OCVBSMSLEPFNOBFYNMNSTDRUPPKHKMOU -> STLof
+	MYROAXYUWPENGZEPEELLSIKJQHZEXSHS -> STLtl
+	CBNMIBXTLQHRIVAXMFKJXJVAFSUKFUBR -> STLuo
+	KSBZVLOYVHORXOFPTRFXOWZRJUNDCTIM -> STLqk
+	JDJWIUERFXJQVJLZJSOHLSATAYTLOOLT -> STLpe
+	OLEAUPIGAKKMRGABIMUSBJTFOJHKOOWZ -> STLtd
+	GXCWNNBRTEYTOLOVBQBIRRVOCJXAFXWL -> STLpi
+	ZIJROIRXWAGLVBKUEENXOUZWVXEKWFAT -> STLqq
+	XRJEBCTNCXISTKEGYPOAATFOBIQXUWEA -> STLto
+	ZKTVAKMNTVNBYPCWAINALEAOQJVSZIYQ -> STLrd
+	GLHNSJCZHAVATQUMELVZVZSSTASXAWTG -> STLsu
+	LYCHAYPEZVJFARABYNEUTLYCPLKPJOOH -> STLok
+	IFHCPHGRSINMBEXQAFLMCERXLZTJJXHJ -> STLur
+	JTASTHJJWWQBSRQTOQOHMSYMYIHBEMBZ -> STLor
+	RFVTSNIYLQAFMJKELDIKCJDKXUDNHPUM -> STLsj
+	EKFYJBOPNVEUZARUBAINAQFNDORIVHGS -> STLod
+	NDVWZLSIHSLEICDIBQLSENHBWRVIZOSF -> STLue
+	ZAOXOBZRLFEJWOGMGGPRAVLNSRGQYOQB -> STLrm
+	EAOIDTTKZQKMPMFVTQTNXIKEHTCJNGRZ -> STLtb
+	YUNAYJCCLKFHCGLVHFQEQFONEMISKEDK -> STLnr
+	PYUSHJZUCHXGLXYPGLVJMEKSGGUGZXUE -> STLsb
+	WDPYSHSXEMCNOGQFHLYATDCMUYECQFRV -> STLqf
+	IMKPFTINMMASQIQIPWMZTGUAZBCEIFDA -> STLpg
+	PUKPKLVGBZIAIWMTHYAFYSRKYWYOVLVD -> STLnp
+	XFSZHXGDVHJWOWJPJEZMADLCELCUMDFM -> STLoa
+	MKDZVNMNGTRHSYQBOYRDMWKDUKBIDIKF -> STLsz
+	NVAMJPQFAGTRHVCLUVVOLOXVRTSKVEXO -> STLnw
+	QIAHJRIVSIMHURRQUISALDNSXSXDNGBW -> STLqt
+	ZJGSPCMJCITFBWTQZKJEZAUHOVTZIQVW -> STLuj
+	EKJPWROWHOHCJMLCXXXGYERNXDZHXUXO -> STLse
+	DRGNFTMJEADSSLFPMAWZOPPRRGPAXFNW -> STLpa
+	SRZVXKWORFKUXRITKZCVOSOQVIGHQDGD -> STLoo
+	GRBDXLDBNGAEBCKFPZCHUNOSIINTLTCS -> STLox
+	JSJEINQPAFJKNSMPGWGMFUMXFGXJCABJ -> STLoz
+	HJNOJJMKBKCXGFLLIYUMECKXUWTPGYPR -> STLpv
+	UIXSYOEFBBZPCWNGXPWLEQQTJIWNYXEU -> STLrb
+	AYQATKTICRVPYEVMYKNONTEHGNRNWFAG -> STLqu
+	QRJHATGRBWKFNZWSIFLTDVBYNWAIDIBO -> STLsq
+	WKNDAFHFRLHBJSJJWQASDZVDDPYLAGNY -> STLtp
+	FEYQSKMDVQRGVKWEDXIWNGSJFOMIZXNI -> STLub
+	RTAARBPDLUDHLXWYTPIYFEOBAWECHLSW -> STLns
+	LKWFVGAELLMJMOKXDUWNJYQCIHCBOFQV -> STLtf
+	YNTYUOUJHCXDFUYXCBDMXQFVONFOVZXT -> STLux
+	djsflxlftm2(Ljava/lang/Object;I[Ljava/lang/Object;)Ljava/lang/Object; -> STLvb
+	djsflxlftm1(Ljava/lang/Object;I[Ljava/lang/Object;)Ljava/lang/Object; -> STLva
+AppSuitLinker2 -> STLvc
+	PQSSCLFEKVCYGEDCOCHGEPRKTQJNMTKO -> STLvk
+	QASKNQFQZGEFKRMWWXKOABNOBBJLZDAJ -> STLvw
+	OADBSSFQGKNLVNWKVZBYGBFMZUGQCCIS -> STLvs
+	YZHVDRZRTUFYHUCGCJPJYFADWWMVWWBF -> STLvp
+	ZHEXZTVKUNWJLHKELLMDGBZLSFHUROWI -> STLvl
+	ZKTIMRNEFHNPYRIBPKZYOYYPVURGJEQX -> STLvn
+	BNFJNLZCDZQXOXNIFSNDTSZRSXQEYQGM -> STLvr
+	FARLUOMPXOLCGPQJELRAHPXOUBZGDJCR -> STLvf
+	XARNGGONQBWBEURRKLBHABLBDPSVJWNT -> STLvq
+	RVLCIGJYSGMNMOELORPGIMNHXCUXFBWL -> STLvv
+	MBWEUUMQLDJJZJTNRXLDAGJRBHIQCMLY -> STLvt
+	XCBQKMDEEJOUNWWXYWZBHNYZQQXNCNXE -> STLvu
+	IPDZFOFAQBYSKJDIIULKFTVYHAVDWJLR -> STLvj
+	SCHQQIPDWFOBCGHPAHQSUQIDMNENDPPI -> STLvm
+	CQTTZPFEIJYHGKTZVFHULVRBXJIMUROA -> STLvg
+	JLHNAACMNLYBHJUKRFRYXCOEYTWNZJLJ -> STLve
+	MEQRRICCDAMJQUTXUDWKFOUUTFPSTWVE -> STLvh
+	BHHNEVXVDCYQZAHZPYUOVEUBEFVORXUU -> STLvd
+	HKQECHIENVIIUOGJMMBLDRJGOKKLALLQ -> STLvo
+	CCOTJMBQDYKWWVULDGUFSMJFGWUKTXNK -> STLvi
+	djsflxlftm2(Ljava/lang/Object;I[Ljava/lang/Object;)Ljava/lang/Object; -> STLvb
+	djsflxlftm1(Ljava/lang/Object;I[Ljava/lang/Object;)Ljava/lang/Object; -> STLva
+androidx/preference/Preference$OnPreferenceClickListener -> androidx/preference/Preference$OnPreferenceClickListener
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesListAdapter -> STLwf
+	themeConfig -> STLbh
+	getItemsHolder(Landroid/content/Context;Landroid/view/View;)Lcom/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/adapter/BaseListHolder; -> STLdu
+com/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/DbEntity -> STLhh
+	id -> STLhi
+	setId(J)V -> STLhk
+	getId()J -> STLhj
+java/lang/AssertionError -> java/lang/AssertionError
+java/util/Collections -> java/util/Collections
+android/app/Application -> android/app/Application
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/LibrariesWebLinksBottomSheet_MembersInjector -> STLwh
+	themeConfigProvider -> STLga
+	injectThemeConfig(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/LibrariesWebLinksBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V -> STLwj
+	injectMembers(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/LibrariesWebLinksBottomSheet;)V -> STLwi
+	create(Ljavax/inject/Provider;)Ldagger/MembersInjector; -> STLgs
+com/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashCalculator -> STLwk
+	setHashType(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;)V -> STLfn
+	fromFile(Ljava/io/InputStream;)Ljava/lang/String; -> STLfq
+	fromString(Ljava/lang/String;)Ljava/lang/String; -> STLfo
+	fromFile(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String; -> STLfp
+[Lcom/smlnskgmail/jaman/hashchecker/features/settings/presenter/SettingsPresenter$SaveUserDataResult; -> [Lcom/smlnskgmail/jaman/hashchecker/features/settings/presenter/SettingsPresenter$SaveUserDataResult;
+android/widget/ProgressBar -> android/widget/ProgressBar
+java/lang/NoSuchFieldException -> java/lang/NoSuchFieldException
+java/io/FileInputStream -> java/io/FileInputStream
+java/lang/reflect/Array -> java/lang/reflect/Array
+com/smlnskgmail/jaman/hashchecker/di/components/DaggerAppComponent$AppComponentImpl -> STLav$STLwv
+	settingsHelperModule -> STLan
+	appComponentImpl -> STLww
+	databaseHelperModule -> STLam
+	langHelperModule -> STLao
+	themeHelperModule -> STLap
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/PrivacyPolicyWebLinksBottomSheet;)V -> STLeo
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/GenerateToBottomSheet;)V -> STLeh
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionSelectActionsBottomSheet;)V -> STLei
+	injectPrivacyPolicyWebLinksBottomSheet(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/PrivacyPolicyWebLinksBottomSheet;)Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/PrivacyPolicyWebLinksBottomSheet; -> STLxj
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment;)V -> STLed
+	injectHistoryFragment(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment;)Lcom/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment; -> STLwz
+	inject(Lcom/smlnskgmail/jaman/hashchecker/MainActivity;)V -> STLec
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/AuthorWebLinksBottomSheet;)V -> STLem
+	injectThemesBottomSheet(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesBottomSheet;)Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesBottomSheet; -> STLxg
+	injectSourceSelectActionsBottomSheet(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/SourceSelectActionsBottomSheet;)Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/SourceSelectActionsBottomSheet; -> STLxe
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesBottomSheet;)V -> STLek
+	injectGenerateToBottomSheet(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/GenerateToBottomSheet;)Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/hashtypes/GenerateToBottomSheet; -> STLxc
+	injectHashCalculatorFragment(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment;)Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment; -> STLwy
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment;)V -> STLeg
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/themes/ThemesBottomSheet;)V -> STLel
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/LibrariesWebLinksBottomSheet;)V -> STLen
+	injectActionSelectActionsBottomSheet(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionSelectActionsBottomSheet;)Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/ActionSelectActionsBottomSheet; -> STLxd
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment;)V -> STLef
+	injectLibrariesWebLinksBottomSheet(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/LibrariesWebLinksBottomSheet;)Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/LibrariesWebLinksBottomSheet; -> STLxi
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/HistoryFragment;)V -> STLee
+	injectMainActivity(Lcom/smlnskgmail/jaman/hashchecker/MainActivity;)Lcom/smlnskgmail/jaman/hashchecker/MainActivity; -> STLwx
+	injectAuthorWebLinksBottomSheet(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/AuthorWebLinksBottomSheet;)Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/AuthorWebLinksBottomSheet; -> STLxh
+	inject(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/lists/actions/ui/SourceSelectActionsBottomSheet;)V -> STLej
+	injectLanguagesBottomSheet(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesBottomSheet;)Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/languages/LanguagesBottomSheet; -> STLxf
+	injectFeedbackFragment(Lcom/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment;)Lcom/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment; -> STLxa
+	injectSettingsFragment(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment;)Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/SettingsFragment; -> STLxb
+android/content/SharedPreferences -> android/content/SharedPreferences
+com/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemsAdapter -> STLxp
+	historyItems -> STLxq
+	onBindViewHolder(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemHolder;I)V -> STLxs
+	addHistoryItems(Ljava/util/List;)V -> STLxr
+	onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/smlnskgmail/jaman/hashchecker/features/history/view/list/HistoryItemHolder; -> STLxt
+com/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage -> STLxy
+	deleteAllHistoryItems()V -> STLkm
+	isHistoryItemsListIsEmpty()Z -> STLkn
+	releaseHelper()V -> STLkj
+	getDatabaseFolder()Ljava/lang/String; -> STLkp
+	getDatabaseFileName()Ljava/lang/String; -> STLkq
+	backupCheckpoint()V -> STLko
+	historyItems(Lcom/smlnskgmail/jaman/hashchecker/features/history/view/loader/HistoryPortion;)Ljava/util/List; -> STLkl
+	addHistoryItem(Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/models/HistoryItem;)V -> STLkk
+android/content/SharedPreferences$Editor -> android/content/SharedPreferences$Editor
+java/nio/ByteBuffer -> java/nio/ByteBuffer
+com/google/android/material/bottomsheet/BottomSheetDialogFragment -> com/google/android/material/bottomsheet/BottomSheetDialogFragment
+android/os/Bundle -> android/os/Bundle
+android/content/ClipData -> android/content/ClipData
+com/smlnskgmail/jaman/hashchecker/BuildConfig -> STLyb
+	VERSION_NAME -> STLyh
+	APPLICATION_ID -> STLyd
+	BUILD_TYPE -> STLye
+	VERSION_CODE -> STLyg
+	DEBUG -> STLyc
+	FLAVOR -> STLyf
+com/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment_MembersInjector -> STLyi
+	languageConfigProvider -> STLkv
+	themeConfigProvider -> STLga
+	localDataStorageProvider -> STLgl
+	settingsProvider -> STLfz
+	injectSettings(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment;Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings;)V -> STLym
+	injectMembers(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment;)V -> STLyk
+	injectLocalDataStorage(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment;Lcom/smlnskgmail/jaman/hashchecker/components/localdatastorage/api/LocalDataStorage;)V -> STLyl
+	injectLanguageConfig(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment;Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig;)V -> STLyn
+	create(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/MembersInjector; -> STLyj
+	injectThemeConfig(Lcom/smlnskgmail/jaman/hashchecker/features/hashcalculator/HashCalculatorFragment;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V -> STLyo
+android/view/inputmethod/InputMethodManager -> android/view/inputmethod/InputMethodManager
+com/smlnskgmail/jaman/hashchecker/MainActivity_MembersInjector -> STLyy
+	languageConfigProvider -> STLkv
+	themeConfigProvider -> STLga
+	settingsProvider -> STLfz
+	injectLanguageConfig(Lcom/smlnskgmail/jaman/hashchecker/MainActivity;Lcom/smlnskgmail/jaman/hashchecker/components/locale/api/LanguageConfig;)V -> STLzb
+	injectMembers(Lcom/smlnskgmail/jaman/hashchecker/MainActivity;)V -> STLyz
+	injectSettings(Lcom/smlnskgmail/jaman/hashchecker/MainActivity;Lcom/smlnskgmail/jaman/hashchecker/components/settings/api/Settings;)V -> STLza
+	injectThemeConfig(Lcom/smlnskgmail/jaman/hashchecker/MainActivity;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V -> STLzc
+	create(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/MembersInjector; -> STLgm
+com/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculatorDigest -> STLze
+	messageDigest -> STLzf
+	useCRC32 -> STLzh
+	crc32 -> STLzg
+	instanceFor(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;)Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculatorDigest; -> STLzi
+	result()Ljava/lang/String; -> STLzn
+	setHashType(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;Ljava/lang/String;)V -> STLzk
+	instanceFor(Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;Ljava/lang/String;)Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/jdk/JdkHashCalculatorDigest; -> STLzj
+	update([B)V -> STLzl
+	update([BI)V -> STLzm
+com/smlnskgmail/jaman/hashchecker/ui/bottomsheets/lists/ListItem -> STLzo
+	DEFAULT_ICON_VALUE -> STLzp
+	getAdditionalIconResId()I -> STLzs
+	getTitle(Landroid/content/Context;)Ljava/lang/String; -> STLzq
+	getPrimaryIconResId()I -> STLzr
+AlienGuard1710405825585 -> STLzt
+	method_name_3(Ljava/lang/String;IIIZ)Ljava/lang/String; -> STLzx
+	method_name_3(IILjava/lang/String;IZ)Ljava/lang/String; -> STLzz
+	method_name_2([BIIZ)Ljava/lang/String; -> STLaag
+	method_name_4(I[BIIIZ)Ljava/lang/String; -> STLaao
+	method_name_2(II[BZ)Ljava/lang/String; -> STLaai
+	decode([BIZ)Ljava/lang/String; -> STLaat
+	method_name_4(IIIILjava/lang/String;Z)Ljava/lang/String; -> STLaaf
+	method_name_4(III[BIZ)Ljava/lang/String; -> STLaaq
+	decode(Ljava/lang/String;IZ)Ljava/lang/String; -> STLaas
+	method_name_4(IILjava/lang/String;IIZ)Ljava/lang/String; -> STLaad
+	method_name_4(Ljava/lang/String;IIIIZ)Ljava/lang/String; -> STLaab
+	method_name_3(II[BIZ)Ljava/lang/String; -> STLaal
+	method_name_3(I[BIIZ)Ljava/lang/String; -> STLaak
+	method_name_2(IILjava/lang/String;Z)Ljava/lang/String; -> STLzw
+	method_name_4([BIIIIZ)Ljava/lang/String; -> STLaan
+	method_name_2(ILjava/lang/String;IZ)Ljava/lang/String; -> STLzv
+	method_name_3([BIIIZ)Ljava/lang/String; -> STLaaj
+	method_name_4(IIILjava/lang/String;IZ)Ljava/lang/String; -> STLaae
+	method_name_3(III[BZ)Ljava/lang/String; -> STLaam
+	method_name_2(Ljava/lang/String;IIZ)Ljava/lang/String; -> STLzu
+	method_name_4(II[BIIZ)Ljava/lang/String; -> STLaap
+	method_name_3(ILjava/lang/String;IIZ)Ljava/lang/String; -> STLzy
+	method_name_4(ILjava/lang/String;IIIZ)Ljava/lang/String; -> STLaac
+	method_name_4(IIII[BZ)Ljava/lang/String; -> STLaar
+	method_name_3(IIILjava/lang/String;Z)Ljava/lang/String; -> STLaaa
+	method_name_2(I[BIZ)Ljava/lang/String; -> STLaah
+android/app/ProgressDialog -> android/app/ProgressDialog
+com/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/AuthorWebLinksBottomSheet_MembersInjector -> STLaau
+	themeConfigProvider -> STLga
+	injectMembers(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/AuthorWebLinksBottomSheet;)V -> STLaav
+	injectThemeConfig(Lcom/smlnskgmail/jaman/hashchecker/features/settings/view/lists/weblinks/AuthorWebLinksBottomSheet;Lcom/smlnskgmail/jaman/hashchecker/components/theme/api/ThemeConfig;)V -> STLaaw
+	create(Ljavax/inject/Provider;)Ldagger/MembersInjector; -> STLgs
+a/DummyLogger -> STLaax
+	d(Ljava/lang/String;Ljava/lang/String;)I -> STLaba
+	e(Ljava/lang/String;Ljava/lang/String;)I -> STLabg
+	w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I -> STLabf
+	v(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I -> STLaaz
+	e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I -> STLabh
+	i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I -> STLabd
+	wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I -> STLabk
+	v(Ljava/lang/String;Ljava/lang/String;)I -> STLaay
+	w(Ljava/lang/String;Ljava/lang/String;)I -> STLabe
+	println(ILjava/lang/String;Ljava/lang/String;)I -> STLabi
+	d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I -> STLabb
+	wtf(Ljava/lang/String;Ljava/lang/Throwable;)I -> STLabj
+	i(Ljava/lang/String;Ljava/lang/String;)I -> STLabc
+android/net/Uri -> android/net/Uri
+[Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType; -> [Lcom/smlnskgmail/jaman/hashchecker/components/hashcalculator/api/HashType;
+java/security/MessageDigest -> java/security/MessageDigest
+com/smlnskgmail/jaman/hashchecker/ui/dialogs/BaseDialog -> STLu
+	setupDialogStyle()V -> STLx
+	lambda$initializeDialog$0(Landroid/view/View;)V -> STLy
+	initializeDialog()V -> STLw
+	getLayoutResId()I -> STLv
+com/smlnskgmail/jaman/hashchecker/App$1 -> com/smlnskgmail/jaman/hashchecker/App$1
+	this$0 -> STLad
+	extractById(I)Ljava/lang/String; -> STLbs
+com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment -> com/smlnskgmail/jaman/hashchecker/features/feedback/view/FeedbackFragment
+	contentView -> STLack
+	etFeedbackMessage -> STLacj
+	languageConfig -> STLfa
+	feedbackPresenter -> STLaci
+androidx/preference/PreferenceManager -> androidx/preference/PreferenceManager
+com/smlnskgmail/jaman/hashchecker/MainActivity -> com/smlnskgmail/jaman/hashchecker/MainActivity
+	settings -> STLbg
+	MENU_MAIN_SECTION_SETTINGS -> STLaco
+	URI_FROM_EXTERNAL_APP -> STLacn
+	languageConfig -> STLfa
+	themeConfig -> STLbh
+	MENU_MAIN_SECTION_HISTORY -> STLacp
+android/content/res/Resources$Theme -> android/content/res/Resources$Theme
+android/os/Build$VERSION -> android/os/Build$VERSION
+com/smlnskgmail/jaman/hashchecker/utils/UIUtils -> STLacq
+	removeFragment(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V -> STLacr
